@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+    </head>
+
+    <body>
+        <ol>
+            <p> 목차 </p>
+                <li><a href = "/hw01-html/ex01.html" > 정의와 역사 </a></li>
+                <li><a href = "/hw01-html/ex02.html" > 특징과 영향 </a></li>
+                <li><a href = "/hw01-html/ex03.html" > 국가별 속도 </a></li>
+
+            <p><a href = "/hw01-html/ex04.html" > 메일링 리스트 가입 </a></p>
+            <hr>
+        </ol>
+
+        <h2> 인터넷 개론 </h2><br/>
+
+        <h2> 메일링 리스트 가입 </h2>
+        <form action = "#" method = "post">
+            <fieldset>
+                <legend> 회원가입 </legend>
+                <label for = "username"> 이름 : </label>
+                <input type="text" name = "username" id = "username" required /><br/>
+
+                <lable for = "email"> 이메일 : </lable>
+                <input type = "email" name = "email" id= "email" required /><br/>
+
+                <lable for = "password"> 비밀번호 : </lable>
+                <input type = "password" name = "password" id = "password" required/><br/>
+
+                <lable for = "password_confirm"> 비밀번호 확인 : </lable>
+                <input type = "password" name = "password_confirm" id = "password_confirm"/><br/>
+
+                <lable> 성별 : </lable>
+                <input type = "radio" name = "gender" id = "male" value = "M" checked />
+                <lable for = "male"> 남성 </lable>
+                <input type = "radio" name = "gender" id = "female" vale = "F" />
+                <lable for = "female"> 여성 </lable><br/>
+            </fieldset>
+
+        </form>
+        
+
+    </body>
+
+</html>
